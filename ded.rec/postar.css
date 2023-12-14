@@ -1,0 +1,235 @@
+* {
+    padding: 0;
+    margin: 0;    
+    position: relative;
+
+  }
+  body {
+    background-color: #bbbbbb;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 196px;
+    background-color: #3b68ff;
+    padding: 24px;
+  }
+  .sidebar .logo img {
+    width: 130px;
+  }
+  .sidebar .navegar ul {
+    list-style: none;
+    margin-top: 20px;
+  }
+  .sidebar .navegar ul li {
+    padding: 10px 0px;
+  }
+  .sidebar .navegar ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 13px;
+  }
+  .sidebar .navegar ul li a:hover,
+  .sidebar .navegar ul li a:active,
+  .sidebar .navegar ul li a:focus {
+    color: #ffffff;
+  }
+  .sidebar .navegar ul li a:hover .fa,
+  .sidebar .navegar ul li a:active .fa,
+  .sidebar .navegar ul li a:focus .fa {
+    color: #b3b3b3;
+  }
+  .sidebar .navegar ul li .fa {
+    font-size: 20px;
+    margin-right: 10px;
+  }
+  .sidebar .navegar ul li a:hover .fa:hover,
+  .sidebar .navegar ul li a:hover .fa:active,
+  .sidebar .navegar ul li a:hover .fa:focus {
+    color: #ffffff;
+  }
+  .sidebar .policies {
+    position: absolute;
+    bottom: 100px;
+  }
+  .sidebar .policies ul {
+    list-style: none;
+  }
+  .sidebar .policies ul li {
+    padding-bottom: 5px;
+  }
+  .sidebar .policies ul li a {
+    color: #b3b3b3;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 10px;
+  }
+  .sidebar .policies ul li a:hover,
+  .sidebar .policies ul li a:active,
+  .sidebar .policies ul li a:focus {
+    text-decoration: underline;
+  }
+  
+  .main-container {
+    margin-left: 245px;
+    margin-bottom: 100px;
+  }
+  
+  .topbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #394c5c;
+    padding: 14px 30px;
+  }
+  .topbar .prev-next-buttons button {
+    color: #7a7a7a;
+    cursor: not-allowed;
+    width: 34px;
+    height: 34px;
+    border-radius: 100%;
+    font-size: 18px;
+    border: 0px;
+    background-color: #ffffff;
+    margin-right: 10px;
+  }
+  .topbar .navbar {
+    display: flex;
+    align-items: center;
+  }
+  .topbar .navbar ul {
+    list-style: none;
+  }
+  .topbar .navbar ul li {
+    display: inline-block;
+    margin: 0px 8px;
+    width: 70px;
+  }
+  .topbar .navbar ul li a {
+    color: #b3b3b3;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 1px;
+  }
+  .topbar .navbar ul li a:hover,
+  .topbar .navbar ul li a:active,
+  .topbar .navbar ul li a:focus {
+    color: #ffffff;
+    font-size: 15px;
+  }
+  .topbar .navbar ul li.divider {
+    color: #ffffff;
+    font-size: 26px;
+    margin: 0px 20px;
+    width: auto;
+  }
+  .topbar .navbar button {
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 14px 30px;
+    border: 0px;
+    border-radius: 40px;
+    cursor: pointer;
+    margin-left: 20px;
+  }
+  .topbar .navbar button:hover,
+  .topbar .navbar button:active,
+  .topbar .navbar button:focus {
+    background-color: #f2f2f2;
+  }
+
+  #music__input {
+    display: none;
+    
+  }
+  
+  .music {
+    width: 200px;
+    aspect-ratio: 16/9;
+    background: #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #aaa;
+    border: 2px dashed currentcolor;
+    cursor: pointer;
+    font-family: sans-serif;
+    transition: color 300ms ease-in-out, background 300ms ease-in-out;
+    outline: none;
+    overflow: hidden;
+  }
+  
+  .music:hover {
+    color: #3b68ff;
+    background: #ccc;
+  }
+
+  #picture__input {
+    display: none;
+    
+  }
+  
+  .picture {
+    width: 200px;
+    aspect-ratio: 16/9;
+    background: #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #aaa;
+    border: 2px dashed currentcolor;
+    cursor: pointer;
+    font-family: sans-serif;
+    transition: color 300ms ease-in-out, background 300ms ease-in-out;
+    outline: none;
+    overflow: hidden;
+
+    
+  }
+  
+  .picture:hover {
+    color: #3b68ff;
+    background: #ccc;
+  }
+  
+  .picture:active {
+    border-color: #3b68ff;
+    color: #3b68ff;
+    background: #eee;
+  }
+  
+  
+  
+  .picture__img {
+    max-width: 100%;
+  }
+
+   
+
+  textarea{
+    position: absolute;
+    left: 750px;
+    bottom: 70px;
+    width: 200px;
+    height: 150px;
+    background: #ddd;
+    display: flex;
+    
+    color: #aaa;
+    border: 2px dashed currentcolor;
+    cursor: pointer;
+    outline: none;
+  }
+  textarea:hover{
+    color: #3b68ff;
+    background: #ccc;
+  }
+  
+  
