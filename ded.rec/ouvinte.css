@@ -215,6 +215,38 @@ body {
   a{
     color: #fff;
   }
-button{
-  background-color: #ff0000;
+
+  .excluir{
+        width: 50%;
+        height: 40px;
+        border-radius: 40px;
+        background: #ff0000;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        font-size: 1em;
+        font-weight: 600;   
+        position: relative;
+        top: 40px;
+        right: 100px;
+  }
+
+  .editar{    
+        width: 50%;
+        height: 40px;
+        border-radius: 40px;
+        background: #fffb00;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        font-size: 1em;
+        font-weight: 600;
+        position: relative;
+        left: 130px;
+  }
+.excluir:hover{
+    color: rgb(255, 255, 255);
+}
+.editar:hover{
+    color: rgb(255, 255, 255);
 }
