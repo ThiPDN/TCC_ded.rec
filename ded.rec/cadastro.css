@@ -21,7 +21,7 @@ section {
 .form-box {
     position: relative;
     width: 400px;
-    height: 450px;
+    height: 550px;
     background: transparent;
     border: 2px solid rgba(255, 255, 255, 0.5);
     border-radius: 20px;
@@ -80,17 +80,42 @@ input:valid~label {
     top: 20px;
 }
 
-button {
-    width: 100%;
-    height: 40px;
+.registrar{
+    width: 30%;
+    height: 30px;
     border-radius: 40px;
-    background: #fff;
+    background: #ff0000;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;   
+    position: relative;
+    left: 50px; 
+}
+
+.voltar{    
+    width: 30%;
+    height: 30px;
+    border-radius: 40px;
+    background: #fffb00;
     border: none;
     outline: none;
     cursor: pointer;
     font-size: 1em;
     font-weight: 600;
+    position: relative;
+    left: 50px; 
 }
+
+.registrar:hover{
+color: rgb(255, 255, 255);
+}
+
+.voltar:hover{
+color: rgb(255, 255, 255);
+}
+
 .inputbox i{
     position: absolute;
     right: 8px;

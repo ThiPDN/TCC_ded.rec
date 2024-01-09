@@ -32,8 +32,8 @@
                             <span>3 letras postadas</span> 
                             <button type="button" onclick="confirmarExlusao(
                             '<?php echo $_SESSION['id'] ?>',
-                            '<?php echo $_SESSION['nome'] ?>')">Excluir Conta</button>
-                            <button><a href="editar.php?idusuario=<?php echo $_SESSION['id']?>">Editar Perfil</a></button>
+                            '<?php echo $_SESSION['nome'] ?>' )" class="excluir">Excluir Conta</button>
+                            <a href="editar.php?idusuario=<?php echo $_SESSION['id']?>"><button class="editar">Editar Perfil</button></a>
                         </div>
                     </div>
                 </div>

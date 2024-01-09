@@ -39,6 +39,8 @@ if (isset($_POST["nome"])) {
 }
 
 
+
+
 ?>
 
 <!DOCTYPE html>
@@ -94,10 +96,10 @@ if (isset($_POST["nome"])) {
                        
                         
                     
-                    <button id="salvar">Salvar</button>
+                    <button class="salvar">Salvar</button>
                     
                 </form>
-                <button id="cancelar" onclick="voltar()">Cancelar</button>
+                <button class="cancelar" onclick="voltar()">Cancelar</button>
             </div>
         </div>
     </section>

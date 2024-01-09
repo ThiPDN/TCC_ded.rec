@@ -80,16 +80,41 @@ input:valid~label {
     top: 20px;
 }
 
-button {
-    width: 100%;
+.registrar{
+    width: 30%;
     height: 40px;
     border-radius: 40px;
-    background: #fff;
+    background: #ff0000;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;   
+    position: relative;
+    left: 150px;
+    bottom: 40px; 
+}
+
+.login{    
+    width: 30%;
+    height: 40px;
+    border-radius: 40px;
+    background: #fffb00;
     border: none;
     outline: none;
     cursor: pointer;
     font-size: 1em;
     font-weight: 600;
+    position: relative;
+    left: 50px; 
+}
+
+.registrar:hover{
+color: rgb(255, 255, 255);
+}
+
+.login:hover{
+color: rgb(255, 255, 255);
 }
 
 .inputbox i{

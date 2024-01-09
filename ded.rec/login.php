@@ -22,9 +22,10 @@
                         <input type="password" name="senha" id="senha" required>
                         <label for="">Senha</label>
                     </div>
-                    <button>log in</button>
-                    <a href="cadastro.html">Registre-se</a>
+                    <button class="login">Login</button>
+                    
                 </form>
+                <a href="cadastro.html"><button class="registrar">Registrar</button></a>
             </div>
         </div>
     </section>
