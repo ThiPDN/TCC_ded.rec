@@ -15,7 +15,7 @@
     $sql = "INSERT INTO tbpost (NomeAlbum, NomeMusica, Estilo, Capa, Musica, Letra) VALUES 
         ('$nomealbum','$nomemusica','$estilo','$capa','$musica', '$letra')";
 
-    echo $sql; 
+     
 
     if($conn->query($sql) === TRUE) {
         ?>

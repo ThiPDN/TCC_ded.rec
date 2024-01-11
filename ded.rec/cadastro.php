@@ -17,7 +17,7 @@
     $sql = "INSERT INTO tbusuario (nome, usuario, email, senha, data) VALUES 
         ('$nome','$usuario','$email','$senha','$data')";
 
-    echo $sql; 
+     
 
     if($conn->query($sql) === TRUE) {
         ?>

@@ -26,7 +26,14 @@ const music_list = [
         name : 'Novo Balanço',
         artist : 'Veigh',
         music : 'music/veigh.mp3'
-    }
+    },
+    {
+        img : 'images/thiago.jpg',
+        name : 'um raio',
+        artist : 'Thiagão',
+        music : 'music/mudar_shaman.mp4'
+    },
+
 ];
 
 loadTrack(track_index);

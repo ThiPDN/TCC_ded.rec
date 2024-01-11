@@ -85,7 +85,7 @@ input:valid~label {
     width: 30%;
     height: 30px;
     border-radius: 40px;
-    background: #ff0000;
+    background: #ffee00;
     border: none;
     outline: none;
     cursor: pointer;
@@ -99,7 +99,7 @@ input:valid~label {
     width: 30%;
     height: 30px;
     border-radius: 40px;
-    background: #fffb00;
+    background: #ff0000;
     border: none;
     outline: none;
     cursor: pointer;

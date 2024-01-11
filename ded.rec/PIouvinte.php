@@ -115,12 +115,12 @@ session_start();
 
         <div class="list">
           <div class="item">
-            <img src="https://i.pinimg.com/564x/cc/2a/4f/cc2a4ff967b10631398d60dffeb8b2d6.jpg" />
+            <img src="https://i.pinimg.com/736x/60/da/94/60da9458857c3fe8d871ea5db85938ae.jpg" />
             <div class="play">
               <span class="fa fa-play"></span>
             </div>
-            <h4> <a href="player.html">Novo Balanço</a> </h4>
-            <p>Veigh</p>
+            <h4> <a href="player.html">my playlist</a> </h4>
+            <p>thiago</p>
           </div>
 
           <div class="item">
